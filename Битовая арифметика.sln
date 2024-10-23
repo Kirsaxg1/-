@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Битовая арифметика", "Битовая арифметика.vcxproj", "{8206F456-DAE5-4D84-BDEF-99E799753977}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8206F456-DAE5-4D84-BDEF-99E799753977}.Debug|x64.ActiveCfg = Debug|x64
+		{8206F456-DAE5-4D84-BDEF-99E799753977}.Debug|x64.Build.0 = Debug|x64
+		{8206F456-DAE5-4D84-BDEF-99E799753977}.Debug|x86.ActiveCfg = Debug|Win32
+		{8206F456-DAE5-4D84-BDEF-99E799753977}.Debug|x86.Build.0 = Debug|Win32
+		{8206F456-DAE5-4D84-BDEF-99E799753977}.Release|x64.ActiveCfg = Release|x64
+		{8206F456-DAE5-4D84-BDEF-99E799753977}.Release|x64.Build.0 = Release|x64
+		{8206F456-DAE5-4D84-BDEF-99E799753977}.Release|x86.ActiveCfg = Release|Win32
+		{8206F456-DAE5-4D84-BDEF-99E799753977}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F6466BE-140A-442E-9C7D-F4BAB62F1E7F}
+	EndGlobalSection
+EndGlobal
