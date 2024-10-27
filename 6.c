@@ -1,30 +1,31 @@
 //#include <stdio.h>
 //
-//// Entry point
-//
 //int main() {
+//    unsigned int a, k;
 //
-//	// The name of the variables
+//    // Ввод числа a
+//    printf("Введите число a: ");
+//    scanf("%u", &a);
 //
-//	int a,b, Mbit;
+//    // Ввод числа k
+//    printf("Введите количество младших битов k: ");
+//    scanf("%u", &k);
 //
-//	// Entering the variable "a"
+//    // Проверка, что k меньше или равно размеру слова
+//    if (k > sizeof(a) * 8) {
+//        printf("Ошибка: k превышает размер слова.\n");
+//        return 1; // Выход с ошибкой
+//    }
 //
-//	puts("Enter a number to determine the lowest bit:  \n");
-//	scanf("%d", &a);
+//    // Создание маски для обнуления младших k битов
+//    unsigned int mask = ~((1 << k) - 1);
 //
-//	// Determining the lowest bit in the number "a"
+//    // Обнуление младших k битов
+//    a &= mask;
 //
-//	Mbit = a & 1;
+//    // Вывод результата
+//    printf("Число a после обнуления младших k битов: %u\n", a);
 //
-//	while (Mbit != 0) {
-//		b &= (a >> ~1);
-//	}
-//
-//	// Low-order bit output
-//
-//	printf("zeroed low bit: %d ", b);
-//
-//	return 0;
-//
+//    return 0;
 //}
+//

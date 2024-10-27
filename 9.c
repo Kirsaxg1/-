@@ -1,22 +1,17 @@
 //#include <stdio.h>
 //
 //int main() {
-//	int a,g;
+//    int num;
+//    printf("¬ведите целое число: ");
+//    scanf("%d", &num);
 //
-//	printf("Enter a: \n");
-//	scanf("%d", &a);
+//    int result = 0;
+//    while (num > 0) {
+//        result ^= num & 1;
+//        num <<= 1;
+//    }
 //
-//	if (a == 0) {
-//		printf("Error. a != 0.");
-//		return 1;
-//	}
+//    printf("–езультат: %d\n", result);
 //
-//	while ( a != 0) {
-//		g ^= a & 1;
-//		a >>= 1;
-//	}
-//
-//	printf(" exit = %d", g);
-//
-//	return 0;
+//    return 0;
 //}

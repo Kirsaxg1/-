@@ -23,13 +23,13 @@
 //		printf("Error. The bits cannot be less than 0 and more than 3");
 //		return 1;
 //	}
-//	//  ак работают знаки после c и k и почему именно так
+//
 //	c = (k >> (a * 8) & 0xFF);
-//	k &= ~(0xFF << (a * 8));
+//	k &= ~(0xFF << (b * 8));
 //	k |= (c << (b * 8));
 //
 //	c = (k >> (b * 8) & 0xFF);
-//	k &= ~(0xFF << (b * 8));
+//	k &= ~(0xFF << (a * 8));
 //	k |= (c << (a * 8));
 //
 //	printf("The changed number: %u\n", k);

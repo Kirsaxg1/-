@@ -1,5 +1,5 @@
 //#include <stdio.h>
-//#define BIT_LEFT_SHIFT( a, b, c) (((a) << (b)) | ((a) >> (c - (b)))) // почему пишем (c - (b)) и почему поменялись знаки >> <<
+//#define BIT_LEFT_SHIFT( a, b, c) (((a) << (b)) | ((a) >> (c - (b)))) 
 //#define BIT_RIGHT_SHIFT( a, b, c) (((a) >> (b)) | ((a) << (c - (b))))
 //
 //// a  - целое число, которое нужно сдвинуть.

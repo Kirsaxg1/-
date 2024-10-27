@@ -1,28 +1,47 @@
 //#include <stdio.h>
 //
 //int main() {
+//    unsigned int a, i, j;
 //
-//	int a, b, c, k;
+//    //Entering the numbers a, i and j
+//    printf("Print number a: ");
+//    scanf("%u", &a);
 //
-//	printf("Enter a: \n");
-//	scanf("%d", &a);
+//    printf("print number bit i: ");
+//    scanf("%u", &i);
 //
-//	printf("Enter b bit: \n");
-//	scanf("%d", &b);
+//    printf("Print number bit j: ");
+//    scanf("%u", &j);
 //
-//	printf("Enter c bit: \n");
-//	scanf("%d", &c);
+//    //Checking that i and j are not out of range
+//    if (i >= sizeof(a) * 8 || j >= sizeof(a) * 8) {
+//        printf("Error: The entered bit numbers are out of range\n");
+//        return 1;
+//    }
 //
-//	k = (a >> b) & 1;
+//    // Invert the ith and jth bits
+//    unsigned int mask_i = 1 << i;
+//    unsigned int mask_j = 1 << j;
 //
-//	a ^= (1 << b) | (1 << c);
+//    unsigned int bit_i = a & mask_i;
+//    unsigned int bit_j = a & mask_j;
 //
-//	a = (k) ? (a | (1 << b)) : (a & ~(1 << b));
+//    if (bit_i != 0) {
+//        a |= mask_j;
+//    }
+//    else {
+//        a &= ~mask_j;
+//    }
 //
-//	printf("The number a after the bit permutation: %d\n", a);
+//    if (bit_j != 0) {
+//        a |= mask_i;
+//    }
+//    else {
+//        a &= ~mask_i;
+//    }
 //
-//	return 0;
+//    // result
+//    printf("The number after the bit change: %u\n", a);
 //
+//    return 0;
 //}
-//
-//
